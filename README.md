@@ -2,7 +2,7 @@
 ## 参考
 <https://ascii.jp/serialarticles/1235262/>
 
-## 各種ファイルに対してのメモ
+## ./code
 - **a.go** ファイル出力  
 `os.File`のインスタンスは`os.Create()`（新規ファイルの場合）や`os.Open`（既存のファイルオープン）などの関数で作る
 
@@ -75,6 +75,13 @@ Go言語では、HTTPのレスポンスをパースする`http.ReadResponse()`�
 - w.go
 - z.go
 
+## ./quiz
+- **q1.go** ファイルのコピー  
+古いファイル(old.txt)を新しいファイル(new.txt)にコピーする
+
+- **q2.go** テスト用の適当なサイズのファイルを作成  
+
+- **q3.go** zipファイルの書き込み  
 
 
 
