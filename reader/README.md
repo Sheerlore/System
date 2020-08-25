@@ -45,3 +45,11 @@ scanner.Split(bufio.ScanWords)
 ```go
 fmt.Fscanf(reader, "%v, %v, %v, %v", &i, &f, &g, &s)
 ```
+
+- **g.go** `io.MultiReader`  
+引数で渡された`io.Reader`のすべての入力が繋がっているかのように動作する。
+
+- **h.go** `io.TeeReader`  
+読み込まれた`io.Reader`の内容を別の`io.Writer`に書き出す。
+
+
